@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.banner_text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.banner_text h1 {
+    font-weight: normal;
+    font-family: bold;
+    font-size: 56px;
+}
+.banner_text p {
+    font-family: regular;
+    font-size: 20px;
+    color: #7A8A80;
+}
+.banner_text a {
+    font-family: medium;
+    font-size: 20px;
+    background-color: #7BA05B;
+    color: white;
+    border-radius: 20px;
+    padding: 18px 24px;
+text-align: center;
+}
+.banner_text a:hover{
+    background-color: #688a4a;
+}

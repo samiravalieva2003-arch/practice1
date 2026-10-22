@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: bold;
+    color: black;
+    font-size: 24px;
+}
+nav {
+    display: flex;
+    gap: 24px;
+}
+nav a {
+    font-family: regular;
+    font-size: 20px;
+    color: #7A8A80;
+}
+nav a:hover{
+    color: #1F2A24;
+    transform: translateY(-5px);
+}
+
+
+

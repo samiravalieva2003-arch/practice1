@@ -1,0 +1,51 @@
+.subscribe {
+    border: 1px solid #E0DAD0;
+    border-radius: 20px;
+    padding: 60px 40px;
+    background-color: white;
+}
+.block h2{
+   font-weight: normal;
+   font-family: medium;
+   font-size: 32px;
+   padding-bottom: 12px;
+   color: #1F2A24;
+}
+.block p{
+    font-family: regular;
+    font-size: 20px;
+    color: #7A8A80;
+    padding-bottom: 20px;
+}
+.subscribe_input{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+input[type="text"]{
+    padding: 18px 24px;
+    background-color: #F5F1EA;
+    border-radius: 20px;
+    border:1px solid #E0DAD0;
+    font-family: regular;
+    color: #7A8A80;
+    width: 70%;
+    outline: none;
+}
+input[type="text"]:focus{
+    border-color: #1F2A24;
+}
+input[type="submit"]{
+    padding: 18px 24px;
+    background-color: #7BA05B;
+    border-radius: 20px;
+    font-family: regular;
+    font-size: 20px;
+    color: white;
+    border: none;
+    width: 30%;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #688a4a;
+}

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: regular;
+  src: url(./assets/fonts/MontserratAlternates-Regular.ttf);
+}
+@font-face {
+  font-family: medium;
+  src: url(./assets/fonts/MontserratAlternates-Medium.ttf);
+}
+@font-face {
+  font-family:bold ;
+  src: url(./assets/fonts/MontserratAlternates-SemiBold.ttf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  list-style: none;
+  transition: 0.5s;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+body {
+  background-color: #F5F1EA;
+}
+.py-100{
+  padding-top: 100px;
+}
